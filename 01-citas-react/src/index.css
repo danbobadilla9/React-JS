@@ -1,0 +1,6 @@
+/*Llama los archivos intermos de twcss por medio de los archivos de configuracion (son paquetes) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;

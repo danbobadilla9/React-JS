@@ -1,0 +1,26 @@
+//Para inicializar el proyecto usando npm
+    npm init vite@latest
+    seleccionamos react
+    despues realizamos 
+    npm install
+    npm run dev 
+
+//Instalando dependencias para utilizrar TW CSS
+    npm i -D tailwindcss postcss autoprefixer
+        //Creando los archivos de config 
+            npx tailwindcss init -p
+
+//Para realizar el deployment se hace con
+    npm run build
+        //debemos modificar el archivo taildwind.config.s
+            purge: ["index.html","./src/**/*.jsx"]
+
+
+//Para hacer una interfaz deslizable con react utilizamos
+npm react-swipeable-list
+//Dependencia para hacer una grafica
+npm i react-circular-progressbar
+
+//Para instalar React Router
+    npm install react-router-dom
+
