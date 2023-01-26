@@ -24,3 +24,5 @@ npm i react-circular-progressbar
 //Para instalar React Router
     npm install react-router-dom
 
+//Para installar axios 
+    npm i axios
