@@ -29,3 +29,5 @@ npm i react-circular-progressbar
 
 //Framework MUI (UI)
     npm install @mui/material @emotion/react @emotion/styled
+//uso de boostrap en react
+    npm i react-bootstrap bootstrap@5.1.3
