@@ -26,3 +26,6 @@ npm i react-circular-progressbar
 
 //Para installar axios 
     npm i axios
+
+//Framework MUI (UI)
+    npm install @mui/material @emotion/react @emotion/styled
