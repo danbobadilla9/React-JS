@@ -25,11 +25,11 @@ const Formulario = () => {
                         </MenuItem>
                     ))}
                 </Select>
-                <Box sx={{marginTop: 2}}>
+                {/* <Box sx={{marginTop: 2}}>
                     <Button fullWidth variant='contained' color='primary'>
                         Buscar Noticias
                     </Button>
-                </Box>
+                </Box> */}
             </FormControl>
         </form>
     )
