@@ -3,6 +3,8 @@ import Formulario from './Components/Formulario'
 import ListadoBebidas from './Components/ListadoBebidas'
 import { CategoriasProvider } from './Context/CategoriasProvider'
 import { BebidasProvider } from './Context/BebidasProvider'
+import ModalBebida from './Components/ModalBebida'
+
 function App() {
 
   return (
@@ -12,8 +14,13 @@ function App() {
           <h1>Buscador de Bebidas</h1>
         </header>
         <Container className='mt-5'>
+          
           <Formulario />
+
           <ListadoBebidas/>
+
+          <ModalBebida />
+
         </Container>
       </BebidasProvider>
     </CategoriasProvider>
