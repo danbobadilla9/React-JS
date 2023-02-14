@@ -31,3 +31,10 @@ npm i react-circular-progressbar
     npm install @mui/material @emotion/react @emotion/styled
 //uso de boostrap en react
     npm i react-bootstrap bootstrap@5.1.3
+
+//Configurando Redux, desde la version 7 soporta los hooks, antes se utilizaban clases
+    npm i react-redux redux redux-thunk
+//Manera mas actualizada 
+    npm i @reduxjs/toolkit
+    
+    //Deberemos crear en src/store.js src/reducers -> reducers/index.js && reducers/productosReducer.js
